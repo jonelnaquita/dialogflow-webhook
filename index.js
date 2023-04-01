@@ -37,7 +37,6 @@ const textGeneration = async (prompt) => {
 
 
 const webApp = express();
-
 const PORT = process.env.PORT;
 
 webApp.use(express.urlencoded({ extended: true }));
